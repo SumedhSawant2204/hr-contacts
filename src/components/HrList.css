@@ -1,0 +1,62 @@
+/* HrList.css */
+
+.hr-list {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .hr-list h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .hr-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .hr-list li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .hr-list li div {
+    margin: 5px 0;
+  }
+  
+  .hr-list li strong {
+    display: inline-block;
+    width: 120px;
+  }
+  
+  .hr-list .hr-contact-actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .hr-list .hr-contact-actions button {
+    padding: 5px 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .hr-list .hr-contact-actions button.delete {
+    background-color: #FF5733;
+  }
+  
+  .hr-list .hr-contact-actions button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
